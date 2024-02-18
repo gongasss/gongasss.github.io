@@ -1,0 +1,64 @@
+body {
+    padding: 40px;
+    border: 2px solid grey;
+
+}
+hr {
+    color: grey;
+}
+
+video{
+    max-width: 450px;
+    
+}
+.portada {
+    width: 850px;
+}
+.center {
+    display: flex;
+    margin: auto;
+    width: 750px;
+}
+.pf-txt {
+    font-weight: bolder;
+}
+a{
+    color: darkred;
+}
+a:visited{
+    color:darkred;
+}
+.generos-img{
+    width: 600px;
+}
+.headerTabla {
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    padding: 10px;
+}
+th {
+    
+}
+form {
+    padding: 20px;
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: black;
+    border-style: double;
+}
+.form-row {
+    padding: 0px;
+    margin: 1px;
+}
+

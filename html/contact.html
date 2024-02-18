@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <div id="inicio" class="header">
+        <h1>La web de las artes</h1>
+        <div class="nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="musica.html">Música</a></li>
+                <li><a href="cine.html">Cine</a></li>
+                <li><a href="literatura.html">Géneros literarios</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contact.html">Contáctanos</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="main">
+    
+        <form name="Datos Personales" title="Datos Personales" method="post" id="datos">
+        
+            <p class="form-row">
+                <label for="nombre">Nombre:</label>    
+                <input placeholder="Introduce tu nombre" type="text" name="Nombre" id="nombre" required>
+            </p>
+            
+            <p class="form-row">
+                <label for="apellidos">Apellidos:</label>
+                <input placeholder="Introduce tus apellidos" type="text" name="apellidos" id="apellidos" required>    
+            </p>
+            
+            <p class="form-row">                
+                <label for="email">Email:</label>
+                <input placeholder="Introduce tu email" type="text" name="Nombre" id="email" required>
+            </p>
+            
+            <p class="form-row">
+                <label for="fechaNac">Fecha de Nacimiento:</label>
+                <input placeholder="dd/mm/aaaa" type="date" name="FechaNacimiento" id="fechaNac">    
+            </p>
+            
+            <p class="form-row">
+                <label for="edad">Edad:</label>
+                <input placeholder="0-100" type="text" name="Nombre" id="edad">    
+            </p>
+            
+            <p class="form-row">
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="hombre" id="sexo">
+                <span>Hombre</span>
+                <input type="radio" name="hombre" id="hombre">    
+                <span>Mujer</span>
+            </p>
+
+            <p class="form-row">
+                <label for="pais">País:</label>
+                <select name="paises" id="pais">
+                    <option value="spain">España</option>
+                    <option value="france">Francia</option>
+                    <option value="portugal">Portugal</option>
+                    <option value="italy">Italia</option>
+                </select>
+            </p>
+        </form>
+
+        <p></p>
+        
+        <form title="Otros Datos" method="post">    
+            <p class="form-row">
+                <label for="mensaje">Mensaje:</label>
+                <textarea placeholder="Introduce tu mensaje" name="Mensaje" id="mensaje" cols="85" rows="10"></textarea>
+            </p>
+
+            <p class="form-row">
+                <label for="foto">Adjunta una foto...</label>
+                <input type="file" name="Foto" id="foto">
+            </p>
+        </form>
+
+        <p>
+            <input type="radio" name="check" id="check">
+            <label for="check">He leído las condiciones...</label>
+        </p>
+        
+        <p>
+            <input type="reset" value="Limpiar"/>
+            <input type="reset" value="Enviar"/>
+        </p>
+
+        
+
+        <h1>Centro de referencia</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.7794477103666!2d-16.2832455!3d28.4560642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41cceee5a8035f%3A0xab9f2a74d9e68b51!2sCIFP%20C%C3%A9sar%20Manrique!5e0!3m2!1sen!2ses!4v1708262859914!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+
+
+    </div>
+
+    <hr>
+
+    <div class="footer">
+        <a href="#inicio">Inicio</a>
+    </div>
+</body>
+</html>
